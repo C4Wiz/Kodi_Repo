@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.c4wiz" name="C4Wiz Repo" version="1.0.1" provider-name="C4Wiz">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="C4Wiz Repo">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/C4Wiz/Kodi_Repo/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/C4Wiz/Kodi_Repo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/C4Wiz/Kodi_Repo/master/</datadir>
-            <hashes>false</hashes>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>C4Wiz Personal Repo</summary>
-        <description>Home of the Estuary.ModV2-Modified Skin</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="skin.estuary.modv2" version="3.4.2+matrix.2_1.3-modified" name="Estuary MOD V2 Matrix" provider-name="Guilouz, K19 branch by PvD, Modified by C4Wiz">
+<addon id="skin.estuary.modv2" version="3.4.2+matrix.3_1.3-modified" name="Estuary MOD V2 Matrix" provider-name="Guilouz, K19 branch by PvD, Modified by C4Wiz">
 	<requires>
 	    <import addon="xbmc.python" version="3.0.0"/>
 	    <import addon="xbmc.gui" version="5.15.0"/>
@@ -70,7 +51,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.modv2" version="3.4.2+matrix.3_1.3-modified" name="Estuary MOD V2 Matrix" provider-name="Guilouz, K19 branch by PvD, Modified by C4Wiz">
+<addon id="skin.estuary.modv2" version="3.4.2+matrix.2_1.3-modified" name="Estuary MOD V2 Matrix" provider-name="Guilouz, K19 branch by PvD, Modified by C4Wiz">
 	<requires>
 	    <import addon="xbmc.python" version="3.0.0"/>
 	    <import addon="xbmc.gui" version="5.15.0"/>
@@ -192,6 +173,25 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
+    </extension>
+</addon>
+
+<addon id="repository.c4wiz" name="C4Wiz Repo" version="1.0.1" provider-name="C4Wiz">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="C4Wiz Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/C4Wiz/Kodi_Repo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/C4Wiz/Kodi_Repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/C4Wiz/Kodi_Repo/master/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>C4Wiz Personal Repo</summary>
+        <description>Home of the Estuary.ModV2-Modified Skin</description>
+        <platform>all</platform>
     </extension>
 </addon>
 </addons>
