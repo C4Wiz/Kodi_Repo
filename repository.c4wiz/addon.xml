@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.c4wiz" name="C4Wiz Repo" version="1.0.1" provider-name="C4Wiz">
+<addon id="repository.c4wiz" name="C4Wiz Repo" version="1.0.2" provider-name="C4Wiz">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>

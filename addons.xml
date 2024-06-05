@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.c4wiz" name="C4Wiz Repo" version="1.0.1" provider-name="C4Wiz">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="C4Wiz Repo">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/C4Wiz/Kodi_Repo/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/C4Wiz/Kodi_Repo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/C4Wiz/Kodi_Repo/master/</datadir>
-            <hashes>false</hashes>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>C4Wiz Personal Repo</summary>
-        <description>Home of the Estuary.ModV2-Modified Skin</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="skin.estuary.modv2nexus" version="4.1.2.7+1.7" name="Estuary MOD V2 Nexus" provider-name="Guilouz, K20 branch by PvD, and Modified by C4Wiz">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
@@ -286,5 +267,24 @@
 For a complete view of changes visit https://github.com/c4wiz/skin.estuary.modv2omega
         </news>
 	</extension>
+</addon>
+
+<addon id="repository.c4wiz" name="C4Wiz Repo" version="1.0.2" provider-name="C4Wiz">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="C4Wiz Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/C4Wiz/Kodi_Repo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/C4Wiz/Kodi_Repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/C4Wiz/Kodi_Repo/master/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>C4Wiz Personal Repo</summary>
+        <description>Home of the Estuary.ModV2-Modified Skin</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 </addons>
